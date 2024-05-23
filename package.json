@@ -4,7 +4,7 @@
     "mirror-config-china": "lib/cli.js"
   },
   "bugs": {
-    "url": "https://github.com/gucong3000/mirror-config-china/issues"
+    "url": "https://github.com/ff0o0/mirror-config-china/issues"
   },
   "dependencies": {
     "fs-extra": "^6.0.1"
@@ -21,7 +21,7 @@
     "mocha": "^5.2.0",
     "nyc": "^12.0.2"
   },
-  "homepage": "https://github.com/gucong3000/mirror-config-china#readme",
+  "homepage": "https://github.com/ff0o0/mirror-config-china#readme",
   "keywords": [
     "node",
     "mirros",
@@ -40,7 +40,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gucong3000/mirror-config-china.git"
+    "url": "git+https://github.com/ff0o0/mirror-config-china.git"
   },
   "scripts": {
     "preinstall": "node -e \"require('util').promisify.call\" || npm i util.promisify",
