@@ -1,7 +1,7 @@
 {
   "author": "gucong3000",
   "bin": {
-    "mirror-config-china": "lib/cli.js"
+    "mirror-config-china-252": "lib/cli.js"
   },
   "bugs": {
     "url": "https://github.com/ff0o0/mirror-config-china/issues"
@@ -50,7 +50,7 @@
     "install-test": "npm run install && npm test",
     "test": "mocha --no-timeouts"
   },
-  "version": "2.5.2",
+  "version": "2.5.3",
   "directories": {
     "lib": "lib",
     "test": "test"
