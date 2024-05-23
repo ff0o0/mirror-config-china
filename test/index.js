@@ -78,76 +78,76 @@ describe('environment variables', () => {
 	});
 
 	it('NODEJS_ORG_MIRROR', () => {
-		assert.equal(process.env.NODEJS_ORG_MIRROR, 'https://npm.taobao.org/mirrors/node');
+		assert.equal(process.env.NODEJS_ORG_MIRROR, 'https://npmmirror.com/mirrors/node');
 	});
 
 	it('NVM_NODEJS_ORG_MIRROR', () => {
-		assert.equal(process.env.NVM_NODEJS_ORG_MIRROR, 'https://npm.taobao.org/mirrors/node');
+		assert.equal(process.env.NVM_NODEJS_ORG_MIRROR, 'https://npmmirror.com/mirrors/node');
 	});
 
 	it('IOJS_ORG_MIRROR', () => {
-		assert.equal(process.env.IOJS_ORG_MIRROR, 'https://npm.taobao.org/mirrors/iojs');
+		assert.equal(process.env.IOJS_ORG_MIRROR, 'https://npmmirror.com/mirrors/iojs');
 	});
 
 	it('NVM_IOJS_ORG_MIRROR', () => {
-		assert.equal(process.env.NVM_IOJS_ORG_MIRROR, 'https://npm.taobao.org/mirrors/iojs');
+		assert.equal(process.env.NVM_IOJS_ORG_MIRROR, 'https://npmmirror.com/mirrors/iojs');
 	});
 
 	it('NVMW_NODEJS_ORG_MIRROR', () => {
-		assert.equal(process.env.NVMW_NODEJS_ORG_MIRROR, 'https://npm.taobao.org/mirrors/node');
+		assert.equal(process.env.NVMW_NODEJS_ORG_MIRROR, 'https://npmmirror.com/mirrors/node');
 	});
 	it('NVMW_IOJS_ORG_MIRROR', () => {
-		assert.equal(process.env.NVMW_IOJS_ORG_MIRROR, 'https://npm.taobao.org/mirrors/iojs');
+		assert.equal(process.env.NVMW_IOJS_ORG_MIRROR, 'https://npmmirror.com/mirrors/iojs');
 	});
 
 	it('NVMW_NPM_MIRROR', () => {
-		assert.equal(process.env.NVMW_NPM_MIRROR, 'https://npm.taobao.org/mirrors/npm');
+		assert.equal(process.env.NVMW_NPM_MIRROR, 'https://npmmirror.com/mirrors/npm');
 	});
 });
 
 describe('npm config', () => {
 	it('chromedriver', () => {
-		assert.equal(process.env.npm_config_chromedriver_cdnurl, 'https://npm.taobao.org/mirrors/chromedriver');
+		assert.equal(process.env.npm_config_chromedriver_cdnurl, 'https://npmmirror.com/mirrors/chromedriver');
 	});
 
 	it('electron', () => {
-		assert.equal(process.env.npm_config_electron_mirror, 'https://npm.taobao.org/mirrors/electron/');
+		assert.equal(process.env.npm_config_electron_mirror, 'https://npmmirror.com/mirrors/electron/');
 	});
 
 	it('git4win', () => {
-		assert.equal(process.env.npm_config_git4win_mirror, 'https://npm.taobao.org/mirrors/git-for-windows');
+		assert.equal(process.env.npm_config_git4win_mirror, 'https://npmmirror.com/mirrors/git-for-windows');
 	});
 
 	it('node-inspector', () => {
-		assert.equal(process.env.npm_config_profiler_binary_host_mirror, 'https://npm.taobao.org/mirrors/node-inspector/');
+		assert.equal(process.env.npm_config_profiler_binary_host_mirror, 'https://npmmirror.com/mirrors/node-inspector/');
 	});
 
 	it('node-sass', () => {
-		assert.equal(process.env.npm_config_sass_binary_site, 'https://npm.taobao.org/mirrors/node-sass');
+		assert.equal(process.env.npm_config_sass_binary_site, 'https://npmmirror.com/mirrors/node-sass');
 	});
 
 	it('nodegit', () => {
-		assert.equal(process.env.npm_config_nodegit_binary_host_mirror, 'https://npm.taobao.org/mirrors/nodegit/v{version}/');
+		assert.equal(process.env.npm_config_nodegit_binary_host_mirror, 'https://npmmirror.com/mirrors/nodegit/v{version}/');
 	});
 
 	it('operadriver', () => {
-		assert.equal(process.env.npm_config_operadriver_cdnurl, 'https://npm.taobao.org/mirrors/operadriver');
+		assert.equal(process.env.npm_config_operadriver_cdnurl, 'https://npmmirror.com/mirrors/operadriver');
 	});
 
 	it('phantomjs', () => {
-		assert.equal(process.env.npm_config_phantomjs_cdnurl, 'https://npm.taobao.org/mirrors/phantomjs');
+		assert.equal(process.env.npm_config_phantomjs_cdnurl, 'https://npmmirror.com/mirrors/phantomjs');
 	});
 
 	it('puppeteer', () => {
-		assert.equal(process.env.npm_config_puppeteer_download_host, 'https://npm.taobao.org/mirrors');
+		assert.equal(process.env.npm_config_puppeteer_download_host, 'https://npmmirror.com/mirrors');
 	});
 
 	it('python', () => {
-		assert.equal(process.env.npm_config_python_mirror, 'https://npm.taobao.org/mirrors/python');
+		assert.equal(process.env.npm_config_python_mirror, 'https://npmmirror.com/mirrors/python');
 	});
 
 	it('sqlite3', () => {
-		assert.equal(process.env.npm_config_sqlite3_binary_site, 'https://npm.taobao.org/mirrors/sqlite3');
+		assert.equal(process.env.npm_config_sqlite3_binary_site, 'https://npmmirror.com/mirrors/sqlite3');
 	});
 });
 

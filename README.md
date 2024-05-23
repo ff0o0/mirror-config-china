@@ -17,7 +17,7 @@ mirror-config-china
 ## 安装
 
 ```bash
-npm i -g mirror-config-china --registry=https://registry.npm.taobao.org
+npm i -g mirror-config-china --registry=https://registry.npmmirror.com
 # 检查是否安装成功
 npm config list
 ```
@@ -45,5 +45,5 @@ npm config list
 
 ```
 cd ~/my-project
-mirror-config-china --registry=https://registry.npm.taobao.org
+mirror-config-china --registry=https://registry.npmmirror.com
 ```
