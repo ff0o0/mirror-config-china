@@ -30,7 +30,7 @@
   ],
   "license": "MIT",
   "main": "./index.js",
-  "name": "mirror-config-china",
+  "name": "mirror-config-china-252",
   "nyc": {
     "reporter": [
       "lcov",
@@ -50,5 +50,9 @@
     "install-test": "npm run install && npm test",
     "test": "mocha --no-timeouts"
   },
-  "version": "2.5.1"
+  "version": "2.5.2",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  }
 }
